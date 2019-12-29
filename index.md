@@ -3,22 +3,30 @@ title: Haosuwei Blog
 layout: post
 ---
 
-## 关于我
-
-学习coding中
-
-## 记录内容
+## 本博客内容
 
 工作中经常接触一些新知识，希望有一个平台汇总一下！
 
-## 博客平台
+## 内容编排规则
 
-这个博客通过 [Jekyll](http://jekyllrb.com/) 生成，部署在 [Github](https://pages.github.com)，主题基于 [3-Jekyll](https://github.com/P233/3-Jekyll) 修改生成，非常感谢 [Peiwen Lu](https://github.com/P233) 开发出这么漂亮的主题。
+默认文章都保存在_post目录下
 
-本博客的源码托管在 [Github](https://github.com/haosuwei/haosuwei.github.io) 上，如果有任何改进意见，欢迎讨论。
+可以自定义子目录来分类
 
-参考链接 [Jekyll中文](http://www.jekyll.com.cn/docs/templates/)
+每篇文章的开头格式如下：
 
-## 好友链接
-[区块人生](https://blocklife.github.io)   [群群](https://jiangyaqunqun.github.io)  [旭](https://jiaxuhe.github.io)
+```
 
+---
+layout: post
+title: 文章标题
+category: 文章分类
+tags: 文章标签
+description: 文章描述信息
+---
+```
+
+
+## 其他链接
+
+[笔记](https://github.com/CyC2018/CS-Notes)
